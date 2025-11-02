@@ -1,0 +1,44 @@
+FREE ONLINE FILE CONVERTER - INSTALLATION GUIDE
+================================================
+
+QUICK SETUP:
+1. Upload all files to your web server root directory
+2. Set folder permissions:
+   - uploads/ folder: 755 or 777
+   - converted/ folder: 755 or 777
+3. Access your website - it's ready to use!
+
+DETAILED REQUIREMENTS:
+- PHP 7.4+ with GD extension
+- Apache/Nginx web server
+- 256MB+ RAM recommended
+- MySQL (optional - for analytics)
+
+OPTIONAL ENHANCEMENTS:
+- ImageMagick: Install for PDF to image conversion
+- FFmpeg: Install for audio/video conversion
+- wkhtmltopdf: Install for HTML to PDF conversion
+
+CONFIGURATION:
+Edit includes/config.php to customize:
+- Site URL and domain
+- Maximum file size limits
+- Email settings
+- Database connection (if using)
+
+SECURITY NOTES:
+- .htaccess files are included for security
+- Files auto-delete after 1 hour
+- Upload directories are protected
+- CSRF protection enabled
+
+TROUBLESHOOTING:
+- If uploads fail: Check folder permissions
+- If conversions fail: Install optional dependencies
+- If memory errors: Increase PHP memory_limit
+
+SUPPORT:
+Developer: Rahul Kumar
+Email: help@wp-fixhub.com
+Phone: +91 9113451527
+Website: https://rahulkumar.wp-fixhub.com
